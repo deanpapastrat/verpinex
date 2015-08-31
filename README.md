@@ -1,4 +1,3 @@
-![Verpinex Logo](https://lh6.googleusercontent.com/f0ZPHCxzCyASxFVGaMZxW4YSRG48MKUT4VHnQOIgAoCB83BNOVjxkTHc5MQyI1QsaqfDmbVx=w2560-h1610-rw)
 # Verpinex
 An open source, easy, rapid, and modern web page builder that runs 100% in the browser, no coding required.
 
@@ -23,6 +22,20 @@ __Lead Developer__: Dean Papastrat (Georgia Tech/Sideqik): [@deanpapastrat](http
 13. Beta release.
 14. Fix all bugs from beta, add some features from feature requests.
 15. Release v1.0.0
+
+## Planned Additions
+### v1.1
+- Add global events system so that users can develop their own programs that rely on data generated in Verpinex.
+### v2.0
+- Add official client-side API for retrieving data from Verpinex.
+
+## Planned Parallel Projects
+### Verpinex S
+Verpinex S will be a lightweight server for serving Verpinex. Initial plans would call for a design based on Sails.js, using WebSockets to push data back and forth in realtime. The Verpinex client would sit on top and work as usual, but the PouchDB would sync to the server at various intervals.
+### Verpinex JaRuPyN (Java, Ruby, Python, Node, pronounced "Jar-Rue-Pine")
+Verpinex JRPN will be a project for extracting the core HTML rendering functionality from Verpinex and converting it to other languages. This way, server-side programs can use the data provided by Verpinex on the client side and static pages to cloud hosting services, serve Verpinex data itself, etc.
+### Verpinex E
+Verpinex E will be a jQuery or JavaScript plugin that you can use to easily integrate Verpinex with your existing site.
 
 ## Acknowledgements
 2015, MIT License.
